@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Step 1: Create a React App
+npx create-react-app my-react-app
+
+# Step 2: Change directory to your project
+cd my-react-app
+
+# Step 3: Commit the code
+git init
+git add .
+git commit -m "Initial commit"
+
+# Step 4: Create a GitHub repository
+gh repo create your-username/my-react-app
+
+# Step 5: Switch to the "update_logo" branch
+git checkout -b update_logo
+
+# Step 6: Replace the existing logo and link
+
+# Step 7: Commit your changes
+git add .
+git commit -m "Update logo and link"
+
+# Step 8: Push your changes to the "update_logo" branch
+git push origin update_logo
